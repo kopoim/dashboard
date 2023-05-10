@@ -618,7 +618,7 @@ main .recent-order a{
         height: 100vh;
         padding-right: var(--card-padding);
         display: none;
-        animation: showMenu 400ms ease;
+        animation: showMenu 400ms ease forwards;
     }
 
     @keyframes showMenu{
